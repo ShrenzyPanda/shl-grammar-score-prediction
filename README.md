@@ -37,7 +37,9 @@ The current approach adopted an 80:20 train-validation split, obtaining an RMSE 
 
 #### Log Transformation on Targets
 
-<Histogram 1 and 2>
+![Distribution of MOS Scores](images/hist_y.png)
+
+![Distribution of log(MOS Scores)](images/hist_logy.png)
 
 Observation 1 : Log doesn't change the distribution of labels since it is a monotonic function
 
@@ -56,12 +58,16 @@ Conclusion 2: Log of Target MOS Scores resemble the Normal Distribution better t
 
 #### Waveforms Before and After LUFS Normalization
 
+![Original Waveform](images/orig_waveform.png)
+![LUFS Waveform](images/lufs_waveform.png)
+
 Observation 3: LUFS Normalization doesn't inherently change the waveforms
 
 Conclusion 3: LUFS Normalization may be considered for pre-processing
 
-
 #### Short-term LUFS Before and After LUFS Normalization
+
+![Short-term LUFS](images/short_term_lufs.png)
 
 Observation 4: LUFS Normalization shifts the LUFS slightly
 
