@@ -31,7 +31,11 @@ The current approach adopted an 80:20 train-validation split, obtaining an RMSE 
 
 ## Model Architecture
 
-<Put Image>
+![Model Inference Architecture](images/model_architecture.png)
+
+## Model Weights
+
+The weights of the model can be download from this [link]([URL](https://drive.google.com/file/d/1COp2BYAX56MvaUAaZJlFhQlKarxsWjkJ/view?usp=sharing)).
 
 ## EDA
 
